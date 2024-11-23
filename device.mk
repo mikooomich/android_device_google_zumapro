@@ -1117,17 +1117,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.audio.cca.unsupported=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.vc_call_vol_steps=7 \
+	ro.config.vc_call_vol_steps=14 \
 	ro.audio.monitorRotation = true \
 	ro.audio.offload_wakelock=false
 
-ifneq (,$(OVERRIDE_MEDIA_VOLUME_STEPS))
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.media_vol_steps=$(OVERRIDE_MEDIA_VOLUME_STEPS)
-else
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.media_vol_steps=25
-endif
+	ro.config.media_vol_steps=40
 
 # vndservicemanager and vndservice no longer included in API 30+, however needed by vendor code.
 # See b/148807371 for reference
