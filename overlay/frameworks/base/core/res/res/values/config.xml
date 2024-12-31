@@ -439,8 +439,6 @@
          level[n] <= value < level[n+1]  n+1
          level[MAX] <= value             MAX+1 -->
     <array name="config_screenThresholdLevels">
-        <item>0.3</item>
-        <item>0.4</item>
         <item>0.5</item>
         <item>0.6</item>
         <item>0.9</item>
@@ -453,8 +451,6 @@
          than this threshold, it is applied. See the config_screenThresholdLevels description for
          how the constraint value is chosen. -->
     <integer-array name="config_screenBrighteningThresholds">
-        <item>1</item>
-        <item>10</item>
         <item>100</item>
         <item>100</item>
         <item>40</item>
@@ -468,8 +464,6 @@
          this threshold, it is applied. See the config_screenThresholdLevels description for how
          the constraint value is chosen. -->
     <integer-array name="config_screenDarkeningThresholds">
-        <item>200</item>
-        <item>200</item>
         <item>200</item>
         <item>200</item>
         <item>200</item>
