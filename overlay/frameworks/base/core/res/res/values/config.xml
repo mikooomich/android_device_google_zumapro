@@ -94,28 +94,6 @@
     <!-- Specifies whether to decouple the interactive state of the device from the display on/off state. -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
-    <!-- Radius of the software rounded corners at the top of the display in its natural
-        orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_top">52px</dimen>
-
-    <!-- Radius of the software rounded corners at the bottom of the display in its natural
-        orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">52px</dimen>
-
-    <!-- Top adjustment for the software rounded corners since corners are not perfectly
-        round.  This value is used when retrieving the "radius" of the top rounded corner in cases
-        where the exact bezier curve cannot be retrieved.  This value will be subtracted from
-        rounded_corner_radius_top to more accurately provide a "radius" for the top rounded corners.
-         -->
-    <dimen name="rounded_corner_radius_top_adjustment">5px</dimen>
-
-    <!-- Bottom adjustment for the software rounded corners since corners are not perfectly
-        round.  This value is used when retrieving the "radius" of the bottom rounded corner in
-        cases where the exact bezier curve cannot be retrieved.  This value will be subtracted from
-        rounded_corner_radius_bottom to more accurately provide a "radius" for the bottom rounded
-        corners. -->
-    <dimen name="rounded_corner_radius_bottom_adjustment">4px</dimen>
-
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">28dp</dimen>
 
