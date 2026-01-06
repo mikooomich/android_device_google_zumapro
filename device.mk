@@ -575,7 +575,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.audio.offload_wakelock=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.media_vol_steps=40
+	ro.config.media_vol_steps=50
 
 # vndservicemanager and vndservice no longer included in API 30+, however needed by vendor code.
 # See b/148807371 for reference
