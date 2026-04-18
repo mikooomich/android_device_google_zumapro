@@ -173,4 +173,10 @@
 
     <!-- Boolean indicating whether the mainline supplicant service should be enabled -->
     <bool name="config_wifiMainlineSupplicantEnabled">true</bool>
+
+     <!-- rssi hax -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_5GHz">-90</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_24GHz">-85</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-95</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz">-92</integer>
 </resources>
