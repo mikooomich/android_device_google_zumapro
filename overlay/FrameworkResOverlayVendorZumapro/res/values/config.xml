@@ -619,7 +619,7 @@
     <fraction name="config_prescaleAbsoluteVolume_index3">100.0%</fraction>
 
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
-    <bool name="config_zramWriteback">true</bool>
+    <bool name="config_zramWriteback">false</bool>
 
     <!-- Whether cbrs is supported on the device or not -->
     <bool name="config_cbrs_supported">true</bool>
